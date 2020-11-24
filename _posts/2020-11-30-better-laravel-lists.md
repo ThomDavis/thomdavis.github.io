@@ -106,11 +106,14 @@ After
     public function index(Agency $agency_id, UsersFilter $filter, UserQueryService $service)
     {
         $filter
-            ->setMovieIds(request()->input('movie_id_array)
+            ->setMovieIds(request()->input('movie_id_array')
             ->setAgencyIds([$agency_id]);
 
-        return UserResource::collection($service->getUsers($filter)->get());
+        return UserResource::collection($service->getUsers($filter)
+            ->get());
     }
 ```
 
+
+### Lets unpack this a bit more
 
