@@ -1,4 +1,22 @@
-theme: jekyll-theme-architect
+# Setup
+title:               Thom Davis
+tagline:             'Build something well'
+description:         'Small blog from a developer'
+url:                 https://thomdavis.github.io/
+baseurl:             ''
+paginate:            5
+permalink:           pretty
 
-title: Thom Davis
-description: Blog from a Senior Web Developer
+# About/contact
+author:
+  name:              Thom Davis
+  url:               https://twitter.com/mdo
+  email:             techthomdavis@gmail.com
+
+# Gems
+plugins:
+  - jekyll-paginate
+
+# Custom vars
+version:             1.1.0
+google_analytics_id: #UA-XXXX-Y
