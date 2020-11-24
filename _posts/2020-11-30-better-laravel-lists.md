@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Better Laravel lists
+title: Filter Query Service Pattern
 ---
 
 A wonderful pattern that I discovered this year for solving a growing eloquent problem
