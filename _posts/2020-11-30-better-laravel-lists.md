@@ -62,9 +62,9 @@ The standard approach would be to simply rewrite the query over and over for eac
 approach it tends to mean you need to write duplicate tests around filtering users.
 
 ```php
-    public function getUsersSearchByFirstNameTest()
-    public function getUsersSearchByLastNameTest()
-    public function getUsersSearchByEmailTest()
+    public function getUsersSearchByFirstNameTest();
+    public function getUsersSearchByLastNameTest();
+    public function getUsersSearchByEmailTest();
     public function getUsersSearchByIDTest()
 ```
 
