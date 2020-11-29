@@ -7,6 +7,8 @@ title: Coding Challenge
 Hello!
 My name is Thom Davis.
 
+
+
 To keep things moving I will focus on answering the request.
 
 ### Problem:
@@ -35,11 +37,11 @@ and images for each blade, to a dynamic answer system for forms that required ad
 previous answers, to multi type answer depending on the question.
 However the very best part was we made it entirely server driven.
 
-> Client: What forms do I need to fill out.
-> Server: Form Bar
-> Client: What is the next question for Form Bar?
-> Server: Question 3: What is your Last name? Type=string, minimum length 3.
-> Client: Answer to question 3 is: `foo`
+> Client: What forms do I need to fill out.  
+> Server: Form Bar  
+> Client: What is the next question for Form Bar?  
+> Server: Question 3: What is your Last name?   
+> Client: Answer to question 3 is: `foo`  
 > Client: What is the next question for Form Bar?
 
 This gave us tremendous flexibility and growth. Since we had created the system on the server we could continue to add new
@@ -48,19 +50,3 @@ forms and make changes without having to release new versions of the mobile app.
 From this system we easily created forms for all 50 states.
 
 Thank you for your time,
-
-
-
-
-
-
-
-
-
-
-
-
-
-------------------------------------------
-
-
